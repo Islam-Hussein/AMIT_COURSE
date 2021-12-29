@@ -54,7 +54,7 @@ uint8 KeyPad_GetValue(void)
 			
 			if(!Temp)
 			{
-				value = KeyPad_Value[LOC_Row - ROW_INIT][LOC_Coloum - COL_FINAL];
+				value = KeyPad_Value[LOC_Row - ROW_INIT][LOC_Coloum - COL_INIT];
 				
 				while(!Temp)
 				{
